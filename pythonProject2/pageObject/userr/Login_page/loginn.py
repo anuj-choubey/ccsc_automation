@@ -1,7 +1,7 @@
 import time
 
 from selenium.webdriver.common.by import By
-from ccsc_helpersin.pythonProject2.Base.base_driver import Basedriver
+from ccsc_automation.pythonProject2.Base.base_driver import Basedriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, ElementNotInteractableException, TimeoutException, \

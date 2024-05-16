@@ -2,15 +2,15 @@ import time
 
 from ddt import ddt
 import pytest
-from ccsc_helpersin.pythonProject2.pageObject.userr.Register_page.reegis import Register
+from ccsc_automation.pythonProject2.pageObject.userr.Register_page.reegis import Register
 from selenium.webdriver.common.alert import Alert
 import configparser
-from ccsc_helpersin.pythonProject2.Base.email_random import Random
+from ccsc_automation.pythonProject2.Base.email_random import Random
 
 from selenium.webdriver.support.wait import WebDriverWait
 
 config = configparser.ConfigParser()
-config.read("C://Users//Anuj//ccsc_helpersin//pythonProject2//Utilities//.properties")
+config.read("C://Users//Anuj//ccsc_automation//pythonProject2//Utilities//.properties")
 
 
 @pytest.mark.usefixtures("setup")

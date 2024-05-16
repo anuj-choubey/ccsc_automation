@@ -16,6 +16,8 @@ include/
 *.swp
 *.class
 *.orig
+*.html
+*.css
 *~
 .hypothesis/
 

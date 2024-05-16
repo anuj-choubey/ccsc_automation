@@ -3,7 +3,7 @@ import pytest
 import configparser
 
 config = configparser.ConfigParser()
-config.read("C:\\Users\\Anuj\\ccsc_helpersin\\pythonProject2\\Utilities\\.properties")
+config.read("C:\\Users\\Anuj\\ccsc_automation\\pythonProject2\\Utilities\\.properties")
 
 
 @pytest.fixture()

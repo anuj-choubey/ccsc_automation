@@ -1,14 +1,14 @@
 import time
 
 from selenium.webdriver.common.by import By
-from ccsc_helpersin.pythonProject2.Base.base_driver import Basedriver
+from ccsc_automation.pythonProject2.Base.base_driver import Basedriver
 
 from selenium.webdriver.common.alert import Alert
 import configparser
 
 
 config = configparser.ConfigParser()
-config.read("C://Users//Anuj//ccsc_helpersin//pythonProject2//Utilities//.properties")
+config.read("C://Users//Anuj//ccsc_automation//pythonProject2//Utilities//.properties")
 
 class Register:
 
