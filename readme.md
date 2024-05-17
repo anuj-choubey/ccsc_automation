@@ -19,3 +19,4 @@ To set up the project locally, follow these steps:
 5. Your setup is complete!
 
 
+pytest -vs Test_login.py --html=Reports/login_report.html
